@@ -1,30 +1,41 @@
 {
-  "name": "friendsnap",
-  "version": "1.0.0",
-  "description": "Photos of friends on your facebook",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "systemis",
-  "license": "ISC",
+  "name": "funsoaicltrinal",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "ejs": "^2.6.1",
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "image-downloader": "^3.4.2",
-    "nodemon": "^1.18.10",
-    "puppeteer": "^1.12.2",
-    "request": "^2.88.0",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "puppeteer": "^1.13.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
     "socket.io": "^2.2.0",
-    "socket.io-client": "^2.2.0"
+    "socket.io-client": "^2.2.0",
+    "url": "^0.11.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/systemis/friendsnapinst.git"
+  "devDependencies": {
+    "react-scripts": "2.1.8"
   },
-  "bugs": {
-    "url": "https://github.com/systemis/friendsnapinst/issues"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/systemis/friendsnapinst#readme"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
